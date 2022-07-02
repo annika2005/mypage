@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta property=" og:title" content=" Annika">
+        <meta property="og:description" content="this is Annika">
+        <meta property="og:image" content="cat.jpg">
+        
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background-color:pink ;
+            }
+            .profile{
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border: 2px solid white;
+
+                background-image: url('cat.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .main{
+                color: white;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap{            
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; 
+            }
+            .wrap > a{
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: pink;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; 
+                
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px gray;
+            }
+            .wrap > a:hover {
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">Annika</h1>
+            <p class="sub"> Hey guys this is Annika </p>
+            <a target="_blank" href="https://www.youtube.com/channel/UCMwsMdl8zfawt-Cnm6fIa8Q">Youtube</a>
+            <a target="_blank" href="https://open.spotify.com/user/31o6egkiajd347rxmamoe3rrj7bu?si=brlSL2FDRICJWbvaseqy9g">Spotify</a>
+            <a target="_blank" href="https://vt.tiktok.com/ZSdEgs8ko/">Tiktok</a>
+            <a target="_blank" href="https://pin.it/2JtwKwR">Pinterest</a>
+        </div>      
+    </body>
+</html>
